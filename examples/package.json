@@ -1,0 +1,17 @@
+{
+  "name": "pagelet-sdk-examples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "process": "npm run build && node dist/process-document.js",
+    "search": "npm run build && node dist/search-documents.js"
+  },
+  "dependencies": {
+    "@pagelet-ai/sdk": "0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "6.0.3"
+  }
+}

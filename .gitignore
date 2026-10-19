@@ -1,0 +1,5 @@
+node_modules/
+examples/dist/
+examples/*.pdf
+examples/result.json
+examples/statement.json

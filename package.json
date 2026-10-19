@@ -1,0 +1,36 @@
+{
+  "name": "@pagelet-ai/sdk",
+  "version": "0.1.0",
+  "description": "The Node.js SDK for Pagelet.",
+  "license": "Apache-2.0",
+  "homepage": "https://pagelet.ai/docs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pagelet-ai/node-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pagelet-ai/node-sdk/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "p-retry": "8.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
