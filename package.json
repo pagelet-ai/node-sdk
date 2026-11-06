@@ -1,6 +1,6 @@
 {
   "name": "@pagelet-ai/sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Node.js SDK for Pagelet.",
   "license": "Apache-2.0",
   "homepage": "https://pagelet.ai/docs",
@@ -27,7 +27,7 @@
     "node": ">=22"
   },
   "dependencies": {
-    "p-retry": "8.0.1"
+    "p-retry": "9.0.0"
   },
   "publishConfig": {
     "access": "public",
